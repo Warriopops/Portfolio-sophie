@@ -186,3 +186,22 @@ footer nav ul {
 	margin: 2em
 }
 
+.category-container{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding-bottom: 50px;
+}
+.category-element{
+	border: 1px solid #1D6154;
+	padding: 10px;
+	border-radius: 60px;
+	color: #1D6154;
+	cursor: pointer;
+	font-size: large;
+}
+
+.category-element:hover{
+	background-color: #1D6154;
+	color: white;
+}
